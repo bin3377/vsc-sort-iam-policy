@@ -1,12 +1,23 @@
 {
 	"name": "iam-policy",
-	"displayName": "iam-policy",
-	"description": "Formatter for AWS IAM policy JSON file",
+	"publisher": "bin3377",
+	"displayName": "Sort AWS IAM Policy",
+	"description": "Sort and group AWS IAM policy JSON file",
 	"version": "0.0.1",
+	"author": {
+		"name": "bin3377"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bin3377/vsc-sort-iam-policy.git"
+	},
+	"homepage": "https://github.com/bin3377/vsc-sort-iam-policy/blob/master/README.md",
+	"icon": "images/icon_128.png",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
 	"categories": [
+		"Formatters",
 		"Other"
 	],
 	"activationEvents": [
